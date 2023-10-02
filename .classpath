@@ -8,8 +8,10 @@
 	<classpathentry kind="src" path="List"/>
 	<classpathentry kind="src" path="Tree"/>
 	<classpathentry kind="src" path="Recursion"/>
-	<classpathentry kind="src" path="1_Array"/>
-	<classpathentry kind="src" path="2_Sorting"/>
-	<classpathentry kind="src" path="3_String"/>
+	<classpathentry kind="src" path="Array"/>
+	<classpathentry kind="src" path="Sorting"/>
+	<classpathentry kind="src" path="String"/>
+	<classpathentry kind="src" path="Question"/>
+	<classpathentry kind="src" path="BitManipulation"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
