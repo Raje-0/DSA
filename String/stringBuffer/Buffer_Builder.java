@@ -1,4 +1,4 @@
-package string.StringBuffer;
+package stringBuffer;
 
 public class Buffer_Builder {
 	public static void main(String[] args) {
