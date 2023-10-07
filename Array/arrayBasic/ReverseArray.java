@@ -1,4 +1,4 @@
-package basicQuestion;
+package arrayBasic;
 
 public class ReverseArray {
 	public static void reverse(int[] arr) {

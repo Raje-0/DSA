@@ -13,5 +13,15 @@
 	<classpathentry kind="src" path="String"/>
 	<classpathentry kind="src" path="Question"/>
 	<classpathentry kind="src" path="BitManipulation"/>
+	<classpathentry kind="src" path="Stacks"/>
+	<classpathentry kind="src" path="Queues"/>
+	<classpathentry kind="src" path="Greedy"/>
+	<classpathentry kind="src" path="Binary_Tree"/>
+	<classpathentry kind="src" path="Binary_Search_Tree"/>
+	<classpathentry kind="src" path="Heap"/>
+	<classpathentry kind="src" path="Hashing"/>
+	<classpathentry kind="src" path="Tries"/>
+	<classpathentry kind="src" path="Graph"/>
+	<classpathentry kind="src" path="DP"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
