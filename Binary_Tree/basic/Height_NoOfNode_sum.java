@@ -1,6 +1,6 @@
 package basic;
 
-public class BT_Height {
+public class Height_NoOfNode_sum {
 
 	static class Node {
 		int data;
