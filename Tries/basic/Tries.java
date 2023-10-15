@@ -2,8 +2,8 @@ package basic;
 
 public class Tries {
 	static class Node {
-		Node[] children = new Node[26];
-		boolean eow;
+		Node[] children = new Node[26]; // 26 Alphabet
+		boolean eow; // endOfWord
 
 		public Node() {
 			for (int i = 0; i < 26; i++) {
@@ -14,14 +14,16 @@ public class Tries {
 
 	public static Node root = new Node();
 
+	// insert in tries
+
 	public static void insert(String word) { // O(n)
-		int level = 0;
-		int len = word.length();
-		int idx = 0;
+
+		// int len = word.length();
+		// int idx = 0;
 
 		Node curr = root;
-		for (; level < len; level++) {
-			idx = word.charAt(level) - 'a';
+		for (int level = 0; level < word.length(); level++) {
+			int idx = word.charAt(level) - 'a';
 			if (curr.children[idx] == null) {
 				curr.children[idx] = new Node();
 			}
@@ -29,6 +31,8 @@ public class Tries {
 		}
 		curr.eow = true;
 	}
+
+	// search
 
 	public static boolean search(String key) { // O(n)
 		int level = 0;
